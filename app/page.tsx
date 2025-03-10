@@ -60,7 +60,7 @@ export default function Home() {
 
         <motion.ul className="list-none p-0 mb-8 space-y-2 font-pitch" variants={stagger}>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">⚡</span> Python
+            <span className="mr-2">⚡</span> Deep dives into Python
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
             <span className="mr-2">♟️</span> Chess Analysis and Strategies
@@ -69,7 +69,7 @@ export default function Home() {
             <span className="mr-2">💻</span> Competitive Programming Tips
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">🚀</span> Problem-Solving Techniques
+            <span className="mr-2">🚀</span> Startup insights
           </motion.li>
         </motion.ul>
 
