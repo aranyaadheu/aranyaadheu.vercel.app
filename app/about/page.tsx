@@ -4,7 +4,7 @@ export default function AboutPage() {
       <h1 className="text-3xl font-bold mb-8">About Me</h1>
       
       <p className="mb-6">
-        Hi! I'm Aniruddha Aranya A Dheu, an AI enthusiast who values solitude, cherishes attention to detail, and believes in the power of reflective thinking. I love building things with code and solving complex problems.
+        Welcome to my blog! I'm Aniruddha Aranya A Dheu, an AI enthusiast who values solitude, cherishes attention to detail, and believes in the power of reflective thinking. I love building things with code and solving complex problems.
       </p>
 
       <h2 className="text-2xl font-bold mt-12 mb-4">Deep diving into</h2>
