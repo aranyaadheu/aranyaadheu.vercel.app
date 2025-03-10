@@ -51,7 +51,7 @@ export default function Home() {
           Trying out materials and resources to gather experience in each tech field possible. 
           
           I specialize in <strong>Python Programming Language</strong> and <strong>competitive programming</strong>, 
-          with a deep interest in AI/ ML and Data Science.
+          with a deep interest in <strong>AI/ ML & Data Science.</strong>
         </motion.p>
 
         <motion.p className="mb-8 font-pitch" variants={fadeInUp}>
