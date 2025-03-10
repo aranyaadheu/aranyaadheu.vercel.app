@@ -11,7 +11,7 @@ A modern, responsive portfolio website built with Next.js and Tailwind CSS.
 - Fast loading times
 - Contact form
 
-## Tech Stack
+## Tech Stack Used
 
 - **Framework**: Next.js
 - **Language**: TypeScript
