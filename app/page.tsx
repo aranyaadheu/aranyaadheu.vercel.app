@@ -45,7 +45,7 @@ export default function Home() {
         </motion.div>
         
         <motion.p className="mb-6 font-pitch" variants={fadeInUp}>
-          Hi, I'm <strong>Aniruddha Aranya A Dheu</strong>, aka <strong>aranyaadheu</strong> who thrives for knowledge and is a wannabe comedian. 
+          Hi, I'm <strong>Aniruddha Aranya A Dheu</strong> who thrives for knowledge and is a wannabe comedian. 
           Consistently making each and every day count for the uncertainty. 
           Trying out materials and resources to gather experience in each tech field possible. 
           
@@ -54,12 +54,12 @@ export default function Home() {
         </motion.p>
 
         <motion.p className="mb-8 font-pitch" variants={fadeInUp}>
-          On this blog, I'll share insights about:
+          On this blog, I’ll share insights, best practices, and experiments around:
         </motion.p>
 
         <motion.ul className="list-none p-0 mb-8 space-y-2 font-pitch" variants={stagger}>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">⚡</span> Python
+            <span className="mr-2">⚡</span> Deep dives into Python
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
             <span className="mr-2">♟️</span> Chess Analysis and Strategies
@@ -68,7 +68,7 @@ export default function Home() {
             <span className="mr-2">💻</span> Competitive Programming Tips
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">🚀</span> Problem-Solving Techniques
+            <span className="mr-2">🚀</span> Startup Insightes. 
           </motion.li>
         </motion.ul>
 
