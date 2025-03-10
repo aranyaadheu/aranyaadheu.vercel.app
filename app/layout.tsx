@@ -7,7 +7,8 @@ import '@fontsource/jetbrains-mono/400.css';
 import '@fontsource/jetbrains-mono/500.css';
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = {
+export const metadata: 
+Metadata = {
   title: 'aranyaadheu | Developer & AI Enthusiast',
   description: 'Personal blog and portfolio of aranyaadheu, a madlad from Sylhet, Bangladesh who thrives for knowledge',
   icons: {
