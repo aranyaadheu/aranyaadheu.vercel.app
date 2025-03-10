@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Navigation } from '@/components/navigation';
@@ -45,21 +46,21 @@ export default function Home() {
         </motion.div>
         
         <motion.p className="mb-6 font-pitch" variants={fadeInUp}>
-          Hi, I'm <strong>Aniruddha Aranya A Dheu</strong> who thrives for knowledge and is a wannabe comedian. 
+          Hi, I'm <strong>Aniruddha Aranya A Dheu</strong>, aka <strong>aranyaadheu</strong> who thrives for knowledge and is a wannabe comedian. 
           Consistently making each and every day count for the uncertainty. 
           Trying out materials and resources to gather experience in each tech field possible. 
           
           I specialize in <strong>Python Programming Language</strong> and <strong>competitive programming</strong>, 
-          with a deep interest in <strong>AI/ ML & Data Science<strong/>.
+          with a deep interest in AI/ ML and Data Science.
         </motion.p>
 
         <motion.p className="mb-8 font-pitch" variants={fadeInUp}>
-          On this blog, I’ll share insights, best practices, and experiments around:
+          On this blog, I'll share insights about:
         </motion.p>
 
         <motion.ul className="list-none p-0 mb-8 space-y-2 font-pitch" variants={stagger}>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">⚡</span> Deep dives into Python
+            <span className="mr-2">⚡</span> Python
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
             <span className="mr-2">♟️</span> Chess Analysis and Strategies
@@ -68,12 +69,12 @@ export default function Home() {
             <span className="mr-2">💻</span> Competitive Programming Tips
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">🚀</span> Startup insights
+            <span className="mr-2">🚀</span> Problem-Solving Techniques
           </motion.li>
         </motion.ul>
 
         <motion.p className="mb-8 font-pitch" variants={fadeInUp}>
-          Whether you're a developer, or an AI enthusiast, or problem-solving aficionado, you'll find value here!
+          Whether you're a developer, chess enthusiast, or an AI enthusiast, you'll find value here!
         </motion.p>
 
         <motion.div className="mb-12" variants={fadeInUp}>
