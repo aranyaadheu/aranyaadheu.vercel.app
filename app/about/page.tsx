@@ -17,9 +17,9 @@ export default function AboutPage() {
 
       <h2 className="text-2xl font-bold mt-12 mb-4">Skills</h2>
       <ul className="list-none p-0 space-y-4">
-        <li>Frontend: React, Next.js, Tailwind CSS</li>
-        <li>Backend: Node.js, Express</li>
-        <li>Languages: JavaScript, TypeScript, Python</li>
+        <li>Frontend: --</li>
+        <li>Backend: --</li>
+        <li>Languages: Python</li>
         <li>Tools: Git, VS Code, Linux</li>
       </ul>
 
