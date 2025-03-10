@@ -20,7 +20,7 @@ export default function AboutPage() {
         <li>Frontend: --</li>
         <li>Backend: --</li>
         <li>Languages: Python</li>
-        <li>Tools: Git, VS Code, Linux</li>
+        <li>Tools: Git, VS Code, Linux, Jupyteer Notebook</li>
       </ul>
 
       <h2 className="text-2xl font-bold mt-12 mb-4">Get in Touch</h2>
