@@ -4,12 +4,12 @@ export default function AboutPage() {
       <h1 className="text-3xl font-bold mb-8">About Me</h1>
       
       <p className="mb-6">
-        Hi! I'm Aniruddha Aranya A Dheu, a passionate AI enthusiast from Sylhet, Bangladesh. I love building things with code and solving complex problems.
+        Hi! I'm Aniruddha Aranya A Dheu, an AI enthusiast who values solitude, cherishes attention to detail, and believes in the power of reflective thinking. I love building things with code and solving complex problems.
       </p>
 
       <h2 className="text-2xl font-bold mt-12 mb-4">Deep diving into</h2>
       <ul className="list-none p-0 space-y-4">
-        <li>🌐 Automating boring stuffs with Python</li>
+        <li>🤖 Automating boring stuffs with Python</li>
         <li>♟️ Chess Analysis</li>
         <li>💻 AI/ML & Data Science</li>
         <li>🧩 Problem Solving</li>
