@@ -8,8 +8,12 @@ import '@fontsource/jetbrains-mono/500.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'aranyaadheu | Developer & Chess Enthusiast',
-  description: 'Personal blog and portfolio of Aranya A Dheu, a madlad from Sylhet, Bangladesh who thrives for knowledge',
+  title: 'aranyaadheu | Developer & AI Enthusiast',
+  description: 'Personal blog and portfolio of aranyaadheu, a madlad from Sylhet, Bangladesh who thrives for knowledge',
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/favicon/apple-icon-180x180.png',
+  },
 };
 
 export default function RootLayout({
