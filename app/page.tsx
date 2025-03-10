@@ -46,7 +46,7 @@ export default function Home() {
         </motion.div>
         
         <motion.p className="mb-6 font-pitch" variants={fadeInUp}>
-          Hi, I'm <strong>Aniruddha Aranya A Dheu</strong>, aka <strong>aranyaadheu</strong> who thrives for knowledge and is a wannabe comedian. 
+          Hi, I'm <strong>Aniruddha Aranya A Dheu</strong> who thrives for knowledge and is a wannabe comedian. 
           Consistently making each and every day count for the uncertainty. 
           Trying out materials and resources to gather experience in each tech field possible. 
           
