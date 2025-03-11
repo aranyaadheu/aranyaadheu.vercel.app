@@ -54,7 +54,7 @@ export default function Home() {
         </motion.p>
 
         <motion.p className="mb-4 sm:mb-8 font-pitch text-sm sm:text-base" variants={fadeInUp}>
-          On this blog, I'll share insights, best practices, and experiments around:
+          On this blog, I'll share insights and experiments around:
         </motion.p>
 
         <motion.ul className="list-none p-0 mb-6 sm:mb-8 space-y-2 font-pitch text-sm sm:text-base" variants={stagger}>
