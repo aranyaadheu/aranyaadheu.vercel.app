@@ -65,6 +65,9 @@ export default function Home() {
             <span className="mr-2">♟️</span> Chess Analysis and Strategies
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
+            <span className="mr-2">⚙️</span> developing and optimizing prompts to efficiently apply and build with LLMs for a wide variety of applications and use cases. 
+          </motion.li>
+          <motion.li className="flex items-center" variants={fadeInUp}>
             <span className="mr-2">💻</span> Competitive Programming Tips
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
