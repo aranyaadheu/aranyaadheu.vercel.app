@@ -56,6 +56,10 @@ module.exports = {
         trispace: ["Trispace", "sans-serif"],
         pitch: ["Pitch", "monospace"],
       },
+      fontWeight: {
+        black: '900',
+        extrabold: '800',
+      },
       animation: {
         "fade-in": "fadeIn 0.5s ease-in-out",
         "slide-up": "slideUp 0.5s ease-in-out",

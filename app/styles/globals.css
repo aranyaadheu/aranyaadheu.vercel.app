@@ -66,9 +66,12 @@
   text-decoration: underline;
 }
 
-.prose strong {
-  color: inherit;
-  font-weight: 600;
+.prose strong,
+strong,
+b {
+  color: inherit !important;
+  font-weight: 900 !important;
+  display: inline !important;
 }
 
 .prose ul {
@@ -199,5 +202,18 @@
   
   .prose p, .prose ul, .prose ol {
     font-size: 0.9375rem;
+  }
+  
+  .prose strong,
+  strong,
+  b {
+    font-weight: 900 !important;
+    color: #000 !important;
+  }
+  
+  .dark .prose strong,
+  .dark strong,
+  .dark b {
+    color: #fff !important;
   }
 } 

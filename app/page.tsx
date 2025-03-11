@@ -46,12 +46,12 @@ export default function Home() {
         </motion.div>
         
         <motion.p className="mb-4 sm:mb-6 font-pitch text-sm sm:text-base" variants={fadeInUp}>
-          Hi, I'm <strong>Aniruddha Aranya A Dheu</strong> who thrives for knowledge and is a wannabe comedian. 
+          Hi, I'm <span style={{fontWeight: 900}} className="font-black">Aniruddha Aranya A Dheu</span> who thrives for knowledge and is a wannabe comedian. 
           Consistently making each and every day count for the uncertainty. 
           Trying out materials and resources to gather experience in each tech field possible. 
           
-          I specialize in <strong>Python Programming Language</strong> and <strong>competitive programming</strong>, 
-          with a deep interest in <strong>AI/ ML & Data Science.</strong>
+          I specialize in <span style={{fontWeight: 900}} className="font-black">Python Programming Language</span> and <span style={{fontWeight: 900}} className="font-black">competitive programming</span>, 
+          with a deep interest in <span style={{fontWeight: 900}} className="font-black">AI/ ML & Data Science.</span>
         </motion.p>
 
         <motion.p className="mb-4 sm:mb-8 font-pitch text-sm sm:text-base" variants={fadeInUp}>
