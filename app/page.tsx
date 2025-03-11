@@ -51,7 +51,7 @@ export default function Home() {
           Trying out materials and resources to gather experience in each tech field possible. 
           
           I specialize in <span style={{fontWeight: 900}} className="font-black">Python Programming Language</span> 
-          with a deep interest in <span style={{fontWeight: 900}} className="font-black">AI/ ML & Data Science.</span>
+           with a deep interest in <span style={{fontWeight: 900}} className="font-black">AI/ ML & Data Science.</span>
         </motion.p>
 
         <motion.p className="mb-4 sm:mb-8 font-pitch text-sm sm:text-base" variants={fadeInUp}>
