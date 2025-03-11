@@ -41,6 +41,7 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <meta property="og:title" content="aranyaadheu" />
         <meta property="og:description" content="madlad in solitude." />
+        <meta property="og:url" content="https://web.whatsapp.com" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
