@@ -18,7 +18,7 @@ export default function AboutPage() {
       <h2 className="text-xl sm:text-2xl font-bold mt-8 sm:mt-12 mb-3 sm:mb-4">Skills</h2>
       <ul className="list-none p-0 space-y-2 sm:space-y-4 text-sm sm:text-base">
         <li>Frontend: HTML, CSS</li>
-        <li>Backend: Python, Pandas, NumPy</li>
+        <li>Backend: Python, Pandas</li>
         <li>Languages: Python</li>
         <li>Tools: Git, VS Code, Linux, Jupyter Notebook, Vercel</li>
       </ul>
