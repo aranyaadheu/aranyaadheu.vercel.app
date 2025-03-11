@@ -73,7 +73,7 @@ export default function Home() {
         </motion.ul>
 
         <motion.p className="mb-6 sm:mb-8 font-pitch text-sm sm:text-base" variants={fadeInUp}>
-          Whether you're a developer, chess enthusiast, or an AI enthusiast, you'll find value here!
+          Whether you're a developer, chess enthusiast, or an AI aficionado, you'll find value here!
         </motion.p>
 
         <motion.div className="mb-8 sm:mb-12" variants={fadeInUp}>
