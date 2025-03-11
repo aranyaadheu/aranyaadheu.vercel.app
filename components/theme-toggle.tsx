@@ -35,7 +35,7 @@ export function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-300 transition-colors"
+      className="p-1.5 sm:p-2 text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-300 transition-colors"
       aria-label="Toggle theme"
     >
       <motion.div
@@ -44,9 +44,9 @@ export function ThemeToggle() {
         transition={{ duration: 0.2 }}
       >
         {isDark ? (
-          <Icons.moon className="w-5 h-5" />
+          <Icons.moon className="w-4 h-4 sm:w-5 sm:h-5" />
         ) : (
-          <Icons.sun className="w-5 h-5" />
+          <Icons.sun className="w-4 h-4 sm:w-5 sm:h-5" />
         )}
       </motion.div>
     </button>

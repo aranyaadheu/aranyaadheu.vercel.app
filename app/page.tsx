@@ -26,7 +26,7 @@ export default function Home() {
     <main>
       {/* Header/Navigation */}
       <motion.header
-        className="mb-16 pb-4 border-b border-orange-300/20"
+        className="mb-8 sm:mb-16 pb-4 border-b border-orange-300/20"
         initial="hidden"
         animate="show"
         variants={fadeInUp}
@@ -41,11 +41,11 @@ export default function Home() {
         animate="show"
         variants={stagger}
       >
-        <motion.div className="mb-12" variants={fadeInUp}>
-          <h1 className="text-[2.5rem] md:text-[3rem] font-bold font-mono m-0 tracking-tight">Welcome to My Blog</h1>
+        <motion.div className="mb-8 sm:mb-12" variants={fadeInUp}>
+          <h1 className="text-[2rem] sm:text-[2.5rem] md:text-[3rem] font-bold font-mono m-0 tracking-tight">Welcome to My Blog</h1>
         </motion.div>
         
-        <motion.p className="mb-6 font-pitch" variants={fadeInUp}>
+        <motion.p className="mb-4 sm:mb-6 font-pitch text-sm sm:text-base" variants={fadeInUp}>
           Hi, I'm <strong>Aniruddha Aranya A Dheu</strong> who thrives for knowledge and is a wannabe comedian. 
           Consistently making each and every day count for the uncertainty. 
           Trying out materials and resources to gather experience in each tech field possible. 
@@ -54,11 +54,11 @@ export default function Home() {
           with a deep interest in <strong>AI/ ML & Data Science.</strong>
         </motion.p>
 
-        <motion.p className="mb-8 font-pitch" variants={fadeInUp}>
+        <motion.p className="mb-4 sm:mb-8 font-pitch text-sm sm:text-base" variants={fadeInUp}>
           On this blog, I'll share insights about:
         </motion.p>
 
-        <motion.ul className="list-none p-0 mb-8 space-y-2 font-pitch" variants={stagger}>
+        <motion.ul className="list-none p-0 mb-6 sm:mb-8 space-y-2 font-pitch text-sm sm:text-base" variants={stagger}>
           <motion.li className="flex items-center" variants={fadeInUp}>
             <span className="mr-2">⚡</span> Deep dives into Python
           </motion.li>
@@ -73,21 +73,21 @@ export default function Home() {
           </motion.li>
         </motion.ul>
 
-        <motion.p className="mb-8 font-pitch" variants={fadeInUp}>
+        <motion.p className="mb-6 sm:mb-8 font-pitch text-sm sm:text-base" variants={fadeInUp}>
           Whether you're a developer, chess enthusiast, or an AI enthusiast, you'll find value here!
         </motion.p>
 
-        <motion.div className="mb-12" variants={fadeInUp}>
-          <div className="flex items-center space-x-4 font-pitch">
-            <span className="text-lg">Connect with me:</span>
-            <div className="flex items-center space-x-3">
+        <motion.div className="mb-8 sm:mb-12" variants={fadeInUp}>
+          <div className="flex flex-col sm:flex-row sm:items-center space-y-3 sm:space-y-0 sm:space-x-4 font-pitch">
+            <span className="text-base sm:text-lg">Connect with me:</span>
+            <div className="flex items-center space-x-4">
               <Link 
                 href="https://github.com/aranyaadheu" 
                 className="text-black dark:text-white hover:text-black/80 dark:hover:text-white/80 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Icons.github className="w-6 h-6" />
+                <Icons.github className="w-5 h-5 sm:w-6 sm:h-6" />
               </Link>
               <Link 
                 href="https://facebook.com/aranyaadheu" 
@@ -95,7 +95,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Icons.facebook className="w-6 h-6" />
+                <Icons.facebook className="w-5 h-5 sm:w-6 sm:h-6" />
               </Link>
               <Link 
                 href="https://www.linkedin.com/in/aranyaadheu/" 
@@ -103,7 +103,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Icons.linkedin className="w-6 h-6" />
+                <Icons.linkedin className="w-5 h-5 sm:w-6 sm:h-6" />
               </Link>
             </div>
           </div>
@@ -112,12 +112,12 @@ export default function Home() {
 
       {/* Footer */}
       <motion.footer
-        className="mt-16"
+        className="mt-8 sm:mt-16"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
-        <div className="flex flex-col space-y-8">
+        <div className="flex flex-col space-y-6 sm:space-y-8">
           <Link 
             href="/posts" 
             className="block text-center hover:text-zinc-300 transition-colors border-b border-orange-300/20 pb-4"
@@ -152,7 +152,7 @@ export default function Home() {
                 <Icons.linkedin className="w-5 h-5" />
               </Link>
             </div>
-            <p className="text-sm text-zinc-500">Copyright © 2025 | All rights reserved.</p>
+            <p className="text-xs sm:text-sm text-zinc-500 text-center">Copyright © 2025 | All rights reserved.</p>
           </div>
         </div>
       </motion.footer>
