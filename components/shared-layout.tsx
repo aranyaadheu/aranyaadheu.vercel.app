@@ -16,7 +16,7 @@ export function SharedLayout({ children, isHomePage = false }: { children: React
     <main className="min-h-screen flex flex-col">
       {/* Header/Navigation */}
       <motion.header
-        className="mb-8 sm:mb-16 pb-4 border-b border-orange-300/20"
+        className="mb-8 sm:mb-16 pb-4 border-b border-orange-300/20 dark:border-[#ac4c0c]"
         initial="hidden"
         animate="show"
         variants={fadeInUp}
@@ -39,7 +39,7 @@ export function SharedLayout({ children, isHomePage = false }: { children: React
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
-        {!isHomePage && <div className="border-t border-orange-300/20" />}
+        {!isHomePage && <div className="border-t border-orange-300/20 dark:border-[#ac4c0c]" />}
         <div className={!isHomePage ? "py-6 px-4" : "px-4"}>
           <div className="flex justify-between items-center">
             <p className="text-xs sm:text-sm text-zinc-500">Copyright © 2025 | All rights reserved.</p>

@@ -109,7 +109,7 @@ export default function Home() {
         initial="hidden"
         animate="show"
       >
-        <div className="border-t border-orange-300/20" />
+        <div className="border-t border-orange-300/20 dark:border-[#ac4c0c]" />
         <div className="py-6">
           <Link 
             href="/posts" 
@@ -118,7 +118,7 @@ export default function Home() {
             All Posts →
           </Link>
         </div>
-        <div className="border-b border-orange-300/20" />
+        <div className="border-b border-orange-300/20 dark:border-[#ac4c0c]" />
       </motion.div>
     </SharedLayout>
   );
