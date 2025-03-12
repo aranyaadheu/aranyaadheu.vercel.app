@@ -52,7 +52,7 @@ export default function AboutPage() {
           className="list-none p-0 space-y-2 sm:space-y-4 text-sm sm:text-base"
           variants={fadeInUp}
         >
-          <li>🤖 Data Wrangling with pandas, NumPy & Jupyter</li>
+          <li>🧠 Data Wrangling with pandas, NumPy & Jupyter</li>
           <li>♟️ Chess Analysis</li>
           <li>💻 AI/ML & Data Science</li>
           <li>🧩 Problem Solving</li>
