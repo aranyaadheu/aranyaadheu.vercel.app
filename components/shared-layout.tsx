@@ -46,7 +46,7 @@ export function SharedLayout({ children, isHomePage = false }: { children: React
             <div className="flex items-center space-x-4">
               <Link 
                 href="https://github.com/aranyaadheu" 
-                className="text-black dark:text-white hover:text-black/80 dark:hover:text-white/80 transition-colors"
+                className="text-zinc-500 hover:text-zinc-300 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -54,7 +54,7 @@ export function SharedLayout({ children, isHomePage = false }: { children: React
               </Link>
               <Link 
                 href="https://facebook.com/aranyaadheu" 
-                className="text-black dark:text-white hover:text-black/80 dark:hover:text-white/80 transition-colors"
+                className="text-zinc-500 hover:text-zinc-300 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -62,7 +62,7 @@ export function SharedLayout({ children, isHomePage = false }: { children: React
               </Link>
               <Link 
                 href="https://www.linkedin.com/in/aranyaadheu/" 
-                className="text-black dark:text-white hover:text-black/80 dark:hover:text-white/80 transition-colors"
+                className="text-zinc-500 hover:text-zinc-300 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
