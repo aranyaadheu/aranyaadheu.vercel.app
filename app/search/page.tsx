@@ -34,11 +34,11 @@ export default function SearchPage() {
           Search
         </motion.h1>
         <motion.div 
-          className="grid gap-4 sm:gap-8"
+          className="grid gap-2 sm:gap-4"
           variants={fadeInUp}
         >
           {/* Add search functionality here */}
-          <p className="text-sm sm:text-base text-muted-foreground">Coming soon...</p>
+          <p className="font-pitch text-sm sm:text-base text-muted-foreground mb-4 sm:mb-6">Coming soon...</p>
         </motion.div>
       </motion.section>
     </SharedLayout>

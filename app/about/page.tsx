@@ -28,62 +28,62 @@ export default function AboutPage() {
         animate="show"
         variants={stagger}
       >
-        <motion.h1 
-          className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-8"
-          variants={fadeInUp}
-        >
-          About Me
-        </motion.h1>
+        <motion.div className="mb-4 sm:mb-6" variants={fadeInUp}>
+          <h1 className="text-[1.5rem] sm:text-[1.75rem] font-bold font-mono m-0 tracking-tight">About Me</h1>
+        </motion.div>
         
-        <motion.p 
-          className="mb-4 sm:mb-6 font-pitch text-sm sm:text-base"
-          variants={fadeInUp}
-        >
-          Welcome to my blog! I'm <span className="font-black">Aniruddha Aranya A Dheu</span>, an AI enthusiast who values solitude, cherishes attention to detail, and believes in the power of reflective thinking. I love building things with code and solving complex problems.
+        <motion.p className="mb-4 sm:mb-6 font-pitch text-sm sm:text-base" variants={fadeInUp}>
+          Welcome to my blog! I'm <span style={{fontWeight: 900}} className="font-black">Aniruddha Aranya A Dheu</span>, an AI enthusiast who values solitude, cherishes attention to detail, and believes in the power of reflective thinking.
+        </motion.p>
+        
+        <motion.p className="mb-4 sm:mb-6 font-pitch text-sm sm:text-base" variants={fadeInUp}>
+          I love connecting the dots between different fields, combining technical expertise with creative insights. Whether it's developing intelligent algorithms, analyzing chess strategies, or writing efficient code, I'm always looking for ways to innovate.
         </motion.p>
 
-        <motion.h2 
-          className="text-xl sm:text-2xl font-bold mt-8 sm:mt-12 mb-3 sm:mb-4"
-          variants={fadeInUp}
-        >
+        <motion.p className="mb-4 sm:mb-6 font-pitch text-sm sm:text-base" variants={fadeInUp}>
+          I believe in lifelong learning and embracing uncertainty. Every challenge is an opportunity to grow and explore new perspectives. My ultimate goal? To create something meaningful while keeping humor alive in everything I do.
+        </motion.p>
+
+        <motion.h2 className="text-[1.5rem] sm:text-[1.75rem] font-bold font-mono mt-8 sm:mt-12 mb-4" variants={fadeInUp}>
           Deep diving into
         </motion.h2>
-        <motion.ul 
-          className="list-none p-0 space-y-2 sm:space-y-4 text-sm sm:text-base"
-          variants={fadeInUp}
-        >
-          <li>🧠 Data Wrangling with pandas, NumPy & Jupyter</li>
-          <li>♟️ Chess Analysis</li>
-          <li>💻 AI/ML & Data Science</li>
-          <li>🧩 Problem Solving</li>
+        <motion.ul className="list-none p-0 mb-6 sm:mb-8 space-y-2 font-pitch text-sm sm:text-base" variants={stagger}>
+          <motion.li className="flex items-center" variants={fadeInUp}>
+            <span className="mr-2">🧠</span> Data Wrangling with pandas, NumPy & Jupyter
+          </motion.li>
+          <motion.li className="flex items-center" variants={fadeInUp}>
+            <span className="mr-2">♟️</span> Chess Analysis
+          </motion.li>
+          <motion.li className="flex items-center" variants={fadeInUp}>
+            <span className="mr-2">💻</span> AI/ML & Data Science
+          </motion.li>
+          <motion.li className="flex items-center" variants={fadeInUp}>
+            <span className="mr-2">🧩</span> Problem Solving
+          </motion.li>
         </motion.ul>
 
-        <motion.h2 
-          className="text-xl sm:text-2xl font-bold mt-8 sm:mt-12 mb-3 sm:mb-4"
-          variants={fadeInUp}
-        >
+        <motion.h2 className="text-[1.5rem] sm:text-[1.75rem] font-bold font-mono mt-8 sm:mt-12 mb-4" variants={fadeInUp}>
           Skills
         </motion.h2>
-        <motion.ul 
-          className="list-none p-0 space-y-2 sm:space-y-4 text-sm sm:text-base"
-          variants={fadeInUp}
-        >
-          <li>Frontend: HTML, CSS</li>
-          <li>Backend: Python</li>
-          <li>Languages: Python</li>
-          <li>Tools: Git, VS Code, Linux, Jupyter Notebook, Vercel</li>
+        <motion.ul className="list-none p-0 mb-6 sm:mb-8 space-y-2 font-pitch text-sm sm:text-base" variants={stagger}>
+          <motion.li className="flex items-center" variants={fadeInUp}>
+            <span className="mr-2">⚡</span> Frontend: HTML, CSS
+          </motion.li>
+          <motion.li className="flex items-center" variants={fadeInUp}>
+            <span className="mr-2">🔧</span> Backend: Python
+          </motion.li>
+          <motion.li className="flex items-center" variants={fadeInUp}>
+            <span className="mr-2">💻</span> Languages: Python
+          </motion.li>
+          <motion.li className="flex items-center" variants={fadeInUp}>
+            <span className="mr-2">🛠️</span> Tools: Git, VS Code, Linux, Jupyter Notebook, Vercel
+          </motion.li>
         </motion.ul>
 
-        <motion.h2 
-          className="text-xl sm:text-2xl font-bold mt-8 sm:mt-12 mb-3 sm:mb-4"
-          variants={fadeInUp}
-        >
+        <motion.h2 className="text-[1.5rem] sm:text-[1.75rem] font-bold font-mono mt-8 sm:mt-12 mb-4" variants={fadeInUp}>
           Get in Touch
         </motion.h2>
-        <motion.p 
-          className="text-sm sm:text-base"
-          variants={fadeInUp}
-        >
+        <motion.p className="mb-4 sm:mb-6 font-pitch text-sm sm:text-base" variants={fadeInUp}>
           Feel free to reach out to me on{" "}
           <Link href="https://github.com/aranyaadheu" className="text-primary hover:underline">
             GitHub
