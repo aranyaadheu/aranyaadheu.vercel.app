@@ -3,8 +3,8 @@
 import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Navigation } from '@/components/navigation';
 import { Icons } from '@/components/ui/icons';
+import { SharedLayout } from '@/components/shared-layout';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -23,17 +23,7 @@ const stagger = {
 
 export default function Home() {
   return (
-    <main>
-      {/* Header/Navigation */}
-      <motion.header
-        className="mb-8 sm:mb-16 pb-4 border-b border-orange-300/20"
-        initial="hidden"
-        animate="show"
-        variants={fadeInUp}
-      >
-        <Navigation />
-      </motion.header>
-
+    <SharedLayout isHomePage={true}>
       {/* Welcome Section */}
       <motion.section
         className="prose dark:prose-invert max-w-none"
@@ -50,7 +40,7 @@ export default function Home() {
           Consistently making each and every day count for the uncertainty. 
           Trying out materials and resources to gather experience in each tech field possible. 
           
-          I specialize in <span style={{fontWeight: 900}} className="font-black">Python Programming Language </span> with a deep interest in <span style={{fontWeight: 900}} className="font-black">AI/ ML & Data Science.</span>
+          I specialize in <span style={{fontWeight: 900}} className="font-black">Python Programming Language</span> with a deep interest in <span style={{fontWeight: 900}} className="font-black">AI/ ML & Data Science.</span>
         </motion.p>
 
         <motion.p className="mb-4 sm:mb-8 font-pitch text-sm sm:text-base" variants={fadeInUp}>
@@ -112,52 +102,24 @@ export default function Home() {
         </motion.div>
       </motion.section>
 
-      {/* Footer */}
-      <motion.footer
+      {/* Posts Link Section with top and bottom borders */}
+      <motion.div 
         className="mt-8 sm:mt-16"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.5 }}
+        variants={fadeInUp}
+        initial="hidden"
+        animate="show"
       >
-        <div className="flex flex-col space-y-6 sm:space-y-8">
+        <div className="border-t border-orange-300/20" />
+        <div className="py-6">
           <Link 
             href="/posts" 
-            className="block text-center hover:text-zinc-300 transition-colors border-b border-orange-300/20 pb-4"
+            className="block text-center hover:text-zinc-300 transition-colors"
           >
             All Posts →
           </Link>
-          
-          <div className="flex flex-col items-center space-y-4">
-            <div className="flex items-center space-x-6">
-              <Link 
-                href="https://github.com/aranyaadheu" 
-                className="text-zinc-500 hover:text-zinc-300 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Icons.github className="w-5 h-5" />
-              </Link>
-              <Link 
-                href="https://facebook.com/aranyaadheu" 
-                className="text-zinc-500 hover:text-zinc-300 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Icons.facebook className="w-5 h-5" />
-              </Link>
-              <Link 
-                href="https://www.linkedin.com/in/aranyaadheu/" 
-                className="text-zinc-500 hover:text-zinc-300 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Icons.linkedin className="w-5 h-5" />
-              </Link>
-            </div>
-            <p className="text-xs sm:text-sm text-zinc-500 text-center">Copyright © 2025 | All rights reserved.</p>
-          </div>
         </div>
-      </motion.footer>
-    </main>
+        <div className="border-b border-orange-300/20" />
+      </motion.div>
+    </SharedLayout>
   );
 } 
