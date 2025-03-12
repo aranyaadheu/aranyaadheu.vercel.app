@@ -52,7 +52,7 @@ export default function AboutPage() {
           className="list-none p-0 space-y-2 sm:space-y-4 text-sm sm:text-base"
           variants={fadeInUp}
         >
-          <li>🤖 Automating boring stuffs with Python</li>
+          <li>🤖 Data Wrangling with pandas, NumPy & Jupyter</li>
           <li>♟️ Chess Analysis</li>
           <li>💻 AI/ML & Data Science</li>
           <li>🧩 Problem Solving</li>
@@ -68,10 +68,10 @@ export default function AboutPage() {
           className="list-none p-0 space-y-2 sm:space-y-4 text-sm sm:text-base"
           variants={fadeInUp}
         >
-          <li>Frontend: --</li>
-          <li>Backend: --</li>
+          <li>Frontend: HTML, CSS</li>
+          <li>Backend: Python</li>
           <li>Languages: Python</li>
-          <li>Tools: Git, VS Code, Linux, Jupyter Notebook</li>
+          <li>Tools: Git, VS Code, Linux, Jupyter Notebook, Vercel</li>
         </motion.ul>
 
         <motion.h2 
@@ -93,8 +93,8 @@ export default function AboutPage() {
             LinkedIn
           </Link>
           , or{" "}
-          <Link href="https://leetcode.com/aranyaadheu/" className="text-primary hover:underline">
-            LeetCode
+          <Link href="https://facebook.com/aranyaadheu/" className="text-primary hover:underline">
+            Facebook
           </Link>
           .
         </motion.p>
