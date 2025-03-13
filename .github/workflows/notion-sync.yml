@@ -1,0 +1,44 @@
+name: Notion Content Sync
+
+on:
+  # Run on a schedule (every day at midnight UTC)
+  schedule:
+    - cron: '0 0 * * *'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+  
+  # Optionally, run when changes are pushed to main branch
+  # push:
+  #   branches: [ main ]
+
+jobs:
+  sync-notion-content:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Sync content from Notion
+        run: npm run notion
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+      
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add content/
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-sync content from Notion"
+          git push 
