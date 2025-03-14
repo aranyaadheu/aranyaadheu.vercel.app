@@ -1,0 +1,73 @@
+* [33ma313d3f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Add generateStaticParams to post detail page for static export compatibility
+* [33m2450614[m Remove landing page from GitHub Pages deployment
+* [33m61ef272[m Add generateStaticParams to tag detail page for static export compatibility
+* [33mb15e3e0[m Fix tag detail page to properly handle Promise-based params in Next.js 15
+* [33m44ecd2e[m Fix build issues: update params handling in post page and remove invalid next.config.js option
+* [33m9cc44e0[m Fix GitHub Pages build script to use npx for Next.js commands
+* [33m1163193[m changes to the .io
+* [33mf94947b[m Simplify posts, tags, and search pages with consistent styling
+* [33ma8f6d71[m fix: create robust fallback for GitHub Pages deployment
+* [33mafb465b[m fix: simplify GitHub Pages deployment process
+* [33mc63e0bf[m fix: update GitHub workflow and pre-render script for GitHub Pages
+* [33m7a246eb[m feat: configure dual deployment for Vercel and GitHub Pages
+* [33m308a574[m docs: emphasize importance of environment variables in Vercel
+* [33ma6f87f3[m fix: resolve JSX syntax error by replacing main tag with div
+* [33ma7aaca8[m chore: optimize configuration for Vercel deployment
+* [33m2616bbd[m fix: revert to static export with API routes excluded
+* [33mf1c8942[m fix: switch to standalone output for API routes support
+* [33m20a8a4f[m fix: remove incorrect basePath and assetPrefix for GitHub Pages deployment
+* [33mdb239a4[m deploy bug fixed #2
+* [33md7465ce[m build error #1
+* [33m34ff26b[m deployment bug fixed.
+* [33m2103f07[m bug fixed the GitHub build errors.
+* [33m0ce32ed[m integrated notion with github sync.
+* [33mebedad9[m fixed footer and all post section
+* [33mef52754[m slighlty faded the footer icons.
+* [33m7cfb132[m fixed font styles
+* [33m451cde9[m Update page.tsx
+* [33m4edfa63[m Update page.tsx
+* [33mbc3141c[m bug fixed, made the site more accurate.
+* [33ma70adec[m Update page.tsx
+* [33me7178c2[m Update page.tsx
+* [33m4bf59a3[m Update page.tsx
+* [33m9ccf723[m Update page.tsx
+* [33m1b77191[m edited page content
+* [33m6090206[m Update page.tsx
+* [33m3eaa98a[m updated about section
+* [33m2b6e1e2[m Update page.tsx
+* [33m2fb5f22[m Update page.tsx
+* [33m0fb6c7a[m slightly change on homepage.
+* [33m18bb4fd[m solved the bold font issue on phone.
+* [33ma81a104[m made the site responsive for all the devices.
+* [33m04d51af[m Update layout.tsx
+* [33m83a9e5c[m Update layout.tsx
+* [33m0fc4e51[m Update README.md
+* [33m9f8066f[m Update page.tsx
+* [33m1c77570[m Update page.tsx
+* [33mf7341ae[m Update page.tsx
+* [33ma00a7ab[m Update layout.tsx
+* [33m8ac34bb[m Update layout.tsx
+* [33mde35873[m Update layout.tsx
+* [33m3257450[m Update layout.tsx
+* [33me4d11f4[m Update layout.tsx
+* [33m4f9eb9b[m Add files via upload
+* [33m79e13ea[m Delete app/favicon directory
+* [33mf1b38f3[m added favicons to the public directory
+* [33m7a7cd51[m Update layout.tsx
+* [33m2b425d3[m added favico.io to the app directory
+* [33mb9d8dc3[m added the favicons
+* [33mcfdb09e[m Delete app/favicon
+* [33m4544365[m Create favicon
+* [33m436b6bb[m Update page.tsx
+* [33m2bd911d[m Update page.tsx
+* [33m1ba8928[m Update page.tsx
+* [33m4b884fb[m Update page.tsx
+* [33m3bbe719[m Update page.tsx
+* [33m27d847a[m Update page.tsx
+* [33m4d6b46c[m Update page.tsx
+* [33m165c04b[m Update page.tsx
+* [33me9bb337[m Update page.tsx
+* [33m317e526[m Create nextjs.yml
+* [33m1c43496[m Update page.tsx
+* [33mf5dda93[m Update page.tsx
+* [33m47dc2e3[m Initial commit

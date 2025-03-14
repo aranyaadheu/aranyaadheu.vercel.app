@@ -5,6 +5,7 @@ import '@fontsource/inter/600.css';
 import '@fontsource/inter/700.css';
 import '@fontsource/jetbrains-mono/400.css';
 import '@fontsource/jetbrains-mono/500.css';
+import { Analytics } from '@vercel/analytics/react';
 import type { Metadata, Viewport } from 'next';
 
 export const viewport: Viewport = {
@@ -43,6 +44,7 @@ export default function RootLayout({
         <div className="max-w-2xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
           {children}
         </div>
+        <Analytics />
       </body>
     </html>
   );
