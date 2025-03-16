@@ -76,7 +76,7 @@ export default function AboutPage() {
             <span className="mr-2">💻</span> Languages: Python
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">🛠️</span> Tools: Git, VS Code, Linux, Jupyter Notebook, Vercel
+            <span className="mr-2">🛠️</span> Tools: Git, VS Code, Linux, Jupyter Notebook, Colab, Vercel
           </motion.li>
         </motion.ul>
 
