@@ -29,7 +29,7 @@ export default function AboutPage() {
         variants={stagger}
       >
         <motion.div className="mb-4 sm:mb-6" variants={fadeInUp}>
-          <h1 className="text-[1.5rem] sm:text-[1.75rem] font-bold font-mono m-0 tracking-tight">About Me</h1>
+          <h1 className="text-[1.5rem] sm:text-[1.75rem] font-bold font-mono m-0 tracking-tight">About</h1>
         </motion.div>
         
         <motion.p className="mb-4 sm:mb-6 font-pitch text-sm sm:text-base" variants={fadeInUp}>
@@ -76,7 +76,7 @@ export default function AboutPage() {
             <span className="mr-2">💻</span> Languages: Python
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">🛠️</span> Tools: Git, VS Code, Linux, Jupyter Notebook, Vercel
+            <span className="mr-2">🛠️</span> Tools: Git, VS Code, Linux, Jupyter Notebook, Colab, Vercel
           </motion.li>
         </motion.ul>
 
