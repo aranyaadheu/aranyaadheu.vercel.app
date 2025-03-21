@@ -55,7 +55,7 @@ export default function AboutPage() {
             <span className="mr-2">♟️</span> Chess Analysis
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">💻</span> AI/ML & Data Science
+            <span className="mr-2">💻</span>LLMs, AI/ML & Data Science
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
             <span className="mr-2">🧩</span> Problem Solving
