@@ -52,13 +52,13 @@ export default function AboutPage() {
             <span className="mr-2">📊</span> Data Wrangling with pandas, NumPy & Jupyter
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">♟️</span> Chess Analysis
-          </motion.li>
-          <motion.li className="flex items-center" variants={fadeInUp}>
             <span className="mr-2">🧠</span> Large Language Models (LLMs)
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">💻</span> AI/ ML & Data Science
+            <span className="mr-2">💻</span> AI/ ML & Data Science 
+          </motion.li>
+          <motion.li className="flex items-center" variants={fadeInUp}>
+            <span className="mr-2">♟️</span> Chess Analysis 
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
             <span className="mr-2">🧩</span> Problem Solving
