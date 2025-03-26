@@ -32,7 +32,7 @@ export default function Home() {
         variants={stagger}
       >
         <motion.div className="mb-8 sm:mb-12" variants={fadeInUp}>
-          <h1 className="text-[2rem] sm:text-[2.5rem] md:text-[3rem] font-bold font-mono m-0 tracking-tight">Welcome to My Portal</h1>
+          <h1 className="text-[2rem] sm:text-[2.5rem] md:text-[3rem] font-bold font-mono m-0 tracking-tight">Welcome to My Blog</h1>
         </motion.div>
         
         <motion.p className="mb-4 sm:mb-6 font-pitch text-sm sm:text-base" variants={fadeInUp}>
@@ -44,7 +44,7 @@ export default function Home() {
         </motion.p>
 
         <motion.p className="mb-4 sm:mb-8 font-pitch text-sm sm:text-base" variants={fadeInUp}>
-          On this blog, I'll share insights and experiments around:
+          On this portal, I'll share insights and experiments around:
         </motion.p>
 
         <motion.ul className="list-none p-0 mb-6 sm:mb-8 space-y-2 font-pitch text-sm sm:text-base" variants={stagger}>
