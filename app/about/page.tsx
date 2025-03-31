@@ -55,6 +55,9 @@ export default function AboutPage() {
             <span className="mr-2">🧠</span> Large Language Models (LLMs)
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
+            <span className="mr-2">📖</span> Retrieval-Augmented Generation (RAG) 
+          </motion.li>
+          <motion.li className="flex items-center" variants={fadeInUp}>
             <span className="mr-2">💻</span> AI/ ML & Data Science 
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
