@@ -41,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen bg-white dark:bg-[#212737] text-zinc-900 dark:text-zinc-100 font-sans antialiased">
-        <div className="max-w-6xl mx-auto px-8 sm:px-12 py-12 sm:py-16">
+        <div className="max-w-3xl mx-auto px-4">
           {children}
         </div>
         <Analytics />
