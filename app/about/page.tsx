@@ -76,7 +76,7 @@ export default function AboutPage() {
             <span className="mr-2">⚡</span> Frontend: HTML, CSS
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">🔧</span> Backend: Python
+            <span className="mr-2">🔧</span> Backend: Python, Pandas
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
             <span className="mr-2">💻</span> Languages: Python
