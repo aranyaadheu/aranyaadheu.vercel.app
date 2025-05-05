@@ -33,7 +33,7 @@ export default function AboutPage() {
         </motion.div>
         
         <motion.p className="mb-4 sm:mb-6 font-pitch text-sm sm:text-base" variants={fadeInUp}>
-          Welcome to my blog! I'm <span style={{fontWeight: 900}} className="font-black">Aniruddha Aranya A Dheu</span>, an AI enthusiast who values solitude, cherishes attention to detail, and believes in the power of reflective thinking.
+          Welcome to my portal! I'm <span style={{fontWeight: 900}} className="font-black">Aniruddha Aranya A Dheu</span>, an AI enthusiast who values solitude, cherishes attention to detail, and believes in the power of reflective thinking.
         </motion.p>
         
         <motion.p className="mb-4 sm:mb-6 font-pitch text-sm sm:text-base" variants={fadeInUp}>
