@@ -76,10 +76,10 @@ export default function AboutPage() {
             <span className="mr-2">⚡</span> Frontend: HTML, CSS
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">🔧</span> Backend: Python, Pandas, Go
+            <span className="mr-2">🔧</span> Backend: Python, Pandas, Go (Golang)
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">💻</span> Languages: Python, Go, C
+            <span className="mr-2">💻</span> Languages: Python, Go (Golang), C
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
             <span className="mr-2">🛠️</span> Tools: Git, VS Code, Linux, Jupyter Notebook, Colab, Vercel
