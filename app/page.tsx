@@ -36,7 +36,7 @@ export default function Home() {
         </motion.div>
         
         <motion.p className="mb-4 sm:mb-6 font-pitch text-sm sm:text-base" variants={fadeInUp}>
-          Hi, I'm <span style={{fontWeight: 900}} className="font-black">aranyaadheu</span> who thrives for knowledge and is a wannabe comedian. 
+          Hi, I'm <span style={{fontWeight: 900}} className="font-black">Aniruddha Aranya A Dheu</span> who thrives for knowledge and is a wannabe comedian. 
           Consistently making each and every day count for the uncertainty. 
           Trying out materials and resources to gather experience in each tech field possible. 
           
