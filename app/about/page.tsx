@@ -33,7 +33,7 @@ export default function AboutPage() {
         </motion.div>
         
         <motion.p className="mb-4 sm:mb-6 font-pitch text-sm sm:text-base" variants={fadeInUp}>
-          Welcome to my portal! I'm <span style={{fontWeight: 900}} className="font-black">aranyaadheu</span>, an AI enthusiast who values solitude, cherishes attention to detail, and believes in the power of reflective thinking.
+          Hello, Welcome to my portal! I'm <span style={{fontWeight: 900}} className="font-black">aranyaadheu</span>, an AI enthusiast who values solitude, cherishes attention to detail, and believes in the power of reflective thinking.
         </motion.p>
         
         <motion.p className="mb-4 sm:mb-6 font-pitch text-sm sm:text-base" variants={fadeInUp}>
@@ -80,6 +80,9 @@ export default function AboutPage() {
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
             <span className="mr-2">💻</span> Languages: Python, Go (Golang), C
+          </motion.li>
+          <motion.li className="flex items-center" variants={fadeInUp}>
+            <span className="mr-2">📚</span> Libraries: pandas, NumPy, Selenium, Matplotlib, streamlit, BeautifulSoup & Requests
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
             <span className="mr-2">🛠️</span> Tools: Git, VS Code, Linux, Jupyter Notebook, Colab, Vercel
