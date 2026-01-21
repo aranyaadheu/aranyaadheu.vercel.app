@@ -61,7 +61,7 @@ export default function Home() {
             <span className="mr-2">💻</span> Competitive Programming Tips
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">🚀</span> Startup insights
+            <span className="mr-2">🚀</span> Research & Startup insights
           </motion.li>
         </motion.ul>
 
