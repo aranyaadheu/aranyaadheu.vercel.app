@@ -79,7 +79,7 @@ export default function AboutPage() {
             <span className="mr-2">🔧</span> Backend: Python, Pandas, Go (Golang)
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
-            <span className="mr-2">💻</span> Languages: Python, Go (Golang), C
+            <span className="mr-2">💻</span> Languages: Python, C/C++, Go (Golang)
           </motion.li>
           <motion.li className="flex items-center" variants={fadeInUp}>
             <span className="mr-2">📚</span> Libraries: pandas, NumPy, Selenium, Matplotlib, streamlit, BeautifulSoup & Requests
